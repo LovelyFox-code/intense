@@ -1,0 +1,165 @@
+.app{
+    margin-top: 3%;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    color: white;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: aqua;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    color: aqua;
+  }
+  .dropdown-menu{
+    background: radial-gradient(100% 100% at 0 0,rgb(249 249 249/2%) 0,rgba(49,49,70,0) 100%);
+    box-shadow: inset -1.89147px -1.89147px 94.5736px rgb(255 255 255 / 2%);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    border-bottom: 1px solid #2d4256;
+    color: #e8e9e9;
+  }
+  .sidebar a:hover{
+    background-color: rgba(49,49,70,0);
+    border-radius: 8px;
+  }
+  div.main{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+.content{
+    padding: 20px;
+}
+.statistics{
+    border: 1px solid #0d2740;
+    padding: 20px 20px 0;
+    background: radial-gradient(100% 100% at 0 0,rgb(0 0 0/20%) 0,rgba(49,49,70,0) 100%);
+    box-shadow: inset -5px -5px 250px rgb(255 255 255 / 2%);
+    -webkit-filter: drop-shadow(8px 8px 12px rgba(0,0,0,.5));
+    filter: drop-shadow(8px 8px 12px rgba(0,0,0,.5));
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
+.span-rot{
+    background: url(../img/btn-style.png);
+    width: 70px;
+    height: 78px;
+    position: absolute;
+    top: -17px;
+    right: -8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 34px 24px;
+}
+.calculator {
+    background: radial-gradient(100% 100% at 0 0,rgb(249 249 249/2%) 0,rgba(49,49,70,0) 100%);
+    box-shadow: inset -1.89147px -1.89147px 94.5736px rgb(255 255 255 / 2%);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    border-bottom: 1px solid #2d4256;
+    color: #e8e9e9;
+}
+.calculator input[type=text] {
+    background: radial-gradient(100% 100% at 0 0,rgb(0 0 0/21%) 0,rgba(49, 65, 70, 0.061) 100%);
+    box-shadow: inset -1.39436px -1.39436px 69.7178px rgb(255 255 255 / 2%);
+    -webkit-backdrop-filter: blur(11.7126px);
+    backdrop-filter: blur(11.7126px);
+    border-radius: 11.0577px;
+    border: 1px solid #202d3a;
+    height: 46px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    color: #f0f0f0;
+    width: 100%;
+}
+.years-list li {
+    background: radial-gradient(100% 100% at 0 0,rgb(0 0 0/11%) 0,rgba(49,49,70,0) 100%);
+    box-shadow: inset -1.39436px -1.39436px 69.7178px rgb(255 255 255 / 2%);
+    -webkit-backdrop-filter: blur(11.7126px);
+    backdrop-filter: blur(11.7126px);
+    border-radius: 11.0577px;
+    border: 1px solid #202d3a8e;
+    display: inline-block;
+    padding: 3px 6px ;
+    font-size: 9px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.years-list li:hover{
+    border: 1px solid #7f63c7a9;
+}
+.years-list li:active{
+    border: 1px solid #7f63c7a9;
+    background-color: #7f63c7a9;
+}
+.years-list .active{
+    border: 1px solid #7f63c7a9;
+    background-color: #7f63c754;
+    border-radius: 11.0577px;
+}
+.years-list{
+    margin-top: 3%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+span.small-font {
+    font-size: 9px;
+    text-transform: capitalize;
+}
+.box-fin{
+    background: radial-gradient(100% 100% at 0 0,rgb(0 0 0/10%) 0,rgba(49,49,70,0) 100%);
+    box-shadow: 0 0 20px rgb(0 0 0 / 47%);
+    -webkit-filter: drop-shadow(8px 8px 12px rgba(0,0,0,.5));
+    filter: drop-shadow(8px 8px 12px rgba(0,0,0,.5));
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    width: 100%;
+    color: #fff;
+    min-height: 60px;
+    border-top: 1px solid #7f63c7a9;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+table {
+    width: 100%;
+}
+table tr td {
+    color: #f0f0f0;
+    padding: 19px 0 10px;
+    border-top: 0;
+    border-bottom: 0;
+}
+table>:not(:first-child) {
+    border-top: 1px solid;
+}
+table>tbody {
+    vertical-align: inherit;
+}

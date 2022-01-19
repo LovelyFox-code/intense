@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intense</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+     <!-- favicon    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./resourses/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resourses/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resourses/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- bootstrap css and icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./resourses/css/style.css">
+    <link rel="stylesheet" href="./resourses/css/finance.css">
+    <link rel="stylesheet" href="./resourses/css/responsive.css">
+</head>
+
+<body>
+    <div class="body">
+        <div id="navbar" class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./resourses/img/logo.png" alt="logo">INTENSE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">$ 0.103778</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-info">
+                            <a href="#">Connect Wallet</a>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="app">
+            <div class="sidebar">
+                <a href="./index.html"><span><i class="bi bi-house-door-fill"></i></span> Home</a>
+                <a href="#news"><span><i class="bi bi-stack"></i></span> Stake</a>
+                <a href="#contact"><span><i class="bi bi-file-earmark-text-fill"></i></span> Docs</a>
+                <li class="nav-item dropdown">
+                    <a class=" dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><span><i class="bi bi-people-fill"></i></span> Social</a>
+                    <ul class="dropdown-menu">
+                        <div class="icon-list-items">
+                            <div class="icon-list-item">
+                                <a class="dropdown-item" href="#" target="_blank">
+                                    <span><i class="bi bi-twitter"></i></span>
+                                    <span class="icon-list-text">Twitter</span>
+                                </a>
+                            </div>
+                            <div class="icon-list-item">
+                                <a class="dropdown-item" href="#" target="_blank">
+                                    <span><i class="bi bi-telegram"></i></span>
+                                    <span class="icon-list-text">Telegram</span>
+                                </a>
+                            </div>
+                            <div class="icon-list-item">
+                                <a class="dropdown-item" href="#" target="_blank">
+                                    <span><i class="bi bi-discord"></i></span>
+                                    <span class="icon-list-text">Discord</span>
+                                </a>
+                            </div>
+                            <div class="icon-list-item">
+                                <a class="dropdown-item" href="#" target="_blank">
+                                    <span><i class="bi bi-medium"></i></span>
+                                    <span class="icon-list-text">Medium</span>
+                                </a>
+                            </div>
+                            <div class="icon-list-item">
+                                <a class="dropdown-item" href="#" target="_blank">
+                                    <span><i class="bi bi-github"></i></span>
+                                    <span class="  icon-list-text">Github</span>
+                                </a>
+                            </div>
+                        </div>
+    
+                    </ul>
+                  </li>
+              </div>
+            <div class="main">
+                <div class="row justify-content-evenly">              
+                    <div class=" col-md-8 content">
+                        <div class="row justify-content-around">
+                            <div class="col-md-4 ">
+                                <h5>Market Cap</h5>
+                                <div class="box-fin">$ 143,775,944.23</div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <h5>APY Statistics</h5>
+                                <div class="box-fin"><div class="span-rot">API</div> 102 483.58%</div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <h5>APY Statistics</h5>
+                                <div class="box-fin"><span id="countdown">00:05:00</span></div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h5>Staking Statistics</h5>
+                            <div class="statistics">
+                                <table>
+                                    <thead>
+                                        <th>Current APY:</th>
+                                        <th style="float: right;" class="highlight">102 483.58%</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Your Wallet Balance:</td>
+                                            <td align="right">0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Next Reward Amount:</td>
+                                            <td align="right">0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Next Reward Yield:</td>
+                                            <td align="right">0,03958%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ROI (5-Day Rate):</td>
+                                            <td align="right" class="highlight">9,94%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 calculator">
+                        <h4>Estimate Your Returns</h4>
+                        <input type="text" placeholder="Add Token Amount here...">
+                        <ul class="years-list">
+                            <li><a href="#">7 days</a></li>
+                            <li><a href="#">1 Month</a></li>
+                            <li><a href="#">6 Months</a></li>
+                            <li class="active"><a href="#">1 year</a></li>
+                        </ul>
+                        <ul>
+                            <li>$TITANO Balance</li>
+                            <li>0</li>
+                        </ul>
+                        <ul>
+                            <li>Total USD Balance:</li>
+                            <li>$0</li>
+                        </ul>
+                        <span class="small-font">Earnings Calculated, Indicate The Scenario When The RFV Sustain The Rebase Reward For 365 Days</span><br>
+                        <button class="secondary">Swap $TITANO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./resourses/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        //countdown
+            // Set the date we're counting down to
+            var countDownDate = new Date("Jan 20, 2022 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Output the result in an element with id="demo"
+                document.getElementById("countdown").innerHTML = hours + ":" + minutes + ":" + seconds;
+
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+    </script>
+    
+</body>
+
+</html>
