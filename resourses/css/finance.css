@@ -1,5 +1,8 @@
 .app{
-    margin-top: 3%;
+    
+    padding-top: 5%;
+    max-width: 1400px;
+    margin: auto;
 }
 .sidebar {
     margin: 0;
