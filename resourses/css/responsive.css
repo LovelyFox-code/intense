@@ -60,6 +60,10 @@
   .small-section{
       width: 100%;
   }
+  .col-3 {
+    flex: 0 0 auto;
+    width: 50%;
+}
   
 }
 @media only screen and (min-width: 600px) {

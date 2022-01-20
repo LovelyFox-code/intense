@@ -6,24 +6,10 @@ html, body {
     }
 div.body{
     background: rgb(4,3,7);
-    background: linear-gradient(-45deg, rgba(4,3,7,1) 30%, rgb(49, 49, 49) 30%, rgb(0, 0, 0) 30%);
     color: white;
     font-family: 'Inconsolata', monospace;
-    animation: gradient 15s ease infinite;
-    min-width: fit-content;
-    min-height: 100vh;
-    width: 100%;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    overflow-x: hidden;
+
 }
 
 /*---------------HEADINGS--------------*/
@@ -222,11 +208,59 @@ li {
 /*---------------------------------------------------*/
 /*HERO*/
 /*---------------------------------------------------*/
+.overlay{
+  background-image: url(../img/bg-images/back1-1-min.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.13;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  
+}
+.elementor{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.bricks{
+  background-image: url(../img/bg-images/bricks.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  height: 7%;
+  width: 100%;
+ 
+}
+.bricks-with-hole{
+  background-image: url(../img/bg-images/bricks2.png);
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.05;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+ 
+}
 .hero-items{
     padding: 0 0 10% 0;
 }
 .hero-items li{
     font-size: 20px;
+}
+.background-image{
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  box-shadow: 0 0 8px 8px rgb(4,3,7) inset;
+}
+.background-image:hover {
+  opacity: 1.0;
 }
 .hero-h1{
     font-size: 60px;
