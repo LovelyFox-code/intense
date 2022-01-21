@@ -1,85 +1,83 @@
-
 @media only screen and (max-width: 600px) {
-    #hero .col{
-        width: 100%;
-    }
-    .video-slide {
-        width: 100%;
-    }
-    h1{
-        font-size: 40px;
-        font-weight: bold;
-        line-height: 1em;
-        letter-spacing: 1px;
-        margin-bottom: 5% ;
-        
-    }
-    h3{
-        font-size: 25px;
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    
-    }
-    .col-8 {
-        width: 100%;
-    }
-    .hero-btn {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .hero-btn button{
-        margin: 0;
-    }
+  #hero .col {
+    width: 100%;
+  }
+  .video-slide {
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .hero-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hero-btn button {
+    margin: 0;
+  }
 
-.text {
+  .text {
     padding: 18% 0 0 0;
     width: 100%;
-}
-.col-4 {
+  }
+  .col-4 {
     width: 75%;
     margin: auto;
-}
-.icon-big{
+  }
+  .icon-big {
     font-size: 20px;
-}
-.sidebar {
+  }
+  .sidebar {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
-  div.main {margin-left: 0;}
-  .find-us .col-md-3{
-      width: 50%;
+  .sidebar a {
+    float: left;
   }
-  .container{
-      width: 90%;
+  div.main {
+    margin-left: 0;
   }
-  .small-section{
-      width: 100%;
+  .find-us .col-md-3 {
+    width: 50%;
+  }
+  .container {
+    width: 90%;
+  }
+  .small-section {
+    width: 100%;
   }
   .col-3 {
     flex: 0 0 auto;
     width: 50%;
-}
-  
+  }
 }
 @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    #hero .col{
-        width: 100%;
-    }
-    h1{
-        font-size: 50px;
-    }
-
-
+  /* For tablets: */
+  #hero .col {
+    width: 100%;
   }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    #hero .col{
-        width: 100%;
-    }
+  h1 {
+    font-size: 50px;
   }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  #hero .col {
+    width: 100%;
+  }
+}

@@ -1,4 +1,4 @@
-// slider carulel for video
+// SLIDER CAROUSEL FOR VIDEO
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -49,7 +49,7 @@ range2.oninput = function () {
 }
 
 
-///animation on scroll
+///ANIMATIONS ON SCROLL
 
 
 const scrollElements = document.querySelectorAll(".js-scroll");
